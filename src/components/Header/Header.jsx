@@ -15,7 +15,7 @@ export default function Header() {
       whileInView="show"
       variants={headerVariants}
       viewport={{ once: false, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}
+      className={`bg-primary paddings ${css.wrapper}`}
       style={{ boxShadow: headerShadow }}
     >
       <div className={`flexCenter innerWidth ${css.container}`}>
